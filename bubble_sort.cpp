@@ -9,12 +9,13 @@ void bubbleSort (vector <int> &arr){
             }
         }
     }
+
+    // Time complexity : O(n^2)
 }
 
 
 int main(){
     vector <int> arr = input();
-    printBeforeSorting(arr);
     bubbleSort(arr);
     printAfterSorting(arr);
 }

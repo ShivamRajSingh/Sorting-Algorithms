@@ -13,15 +13,6 @@ vector<int> input (){
     return arr;
 }
 
-void printBeforeSorting (vector<int> arr){
-    int n = arr.size();
-    cout << "Before Sorting : ";
-    for(int i =0; i < n; i++){
-        cout << arr[i] << " ";
-    }
-    cout << "\n";
-}
-
 void printAfterSorting (vector<int> arr){
     int n = arr.size();
     cout << "After Sorting : ";
